@@ -103,10 +103,10 @@ with open(file_name) as data_file:
 
 plt.subplot(2,1,1)
 plt.title('Original')
-plt.plot(orgLat, orgLon)
+plt.plot(orgLat, orgLon, '.')
 
 plt.subplot(2,1,2)
 plt.title('Fused')
-plt.plot(pointsToPlotLat, pointsToPlotLon)
+plt.plot(pointsToPlotLat, pointsToPlotLon, '.')
 
 plt.show()
